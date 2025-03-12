@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "hw1"
+version = "0.1.0"
+description = "hw1"
+authors = ["Anton Poiskov"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

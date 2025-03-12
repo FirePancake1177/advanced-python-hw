@@ -1,0 +1,12 @@
+hw1 % ./task_1.py
+This is line one
+This is line two
+     1  This is line one
+     2  This is line two
+
+
+
+hw1 % ./task_1.py artifacts/task_1_input.txt
+     1  Line1
+     2  Line2
+     3  Line3

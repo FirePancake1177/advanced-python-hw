@@ -1,0 +1,20 @@
+hw1 % ./task_3.py artifacts/task_3_input_1.txt
+      2       4      23 artifacts/task_3_input_1.txt
+
+hw1 % wc artifacts/task_3_input_1.txt
+       1       4      23 artifacts/task_3_input_1.txt
+
+
+hw1 % ./task_3.py artifacts/task_3_input_1.txt artifacts/task_3_input_2.txt
+      2       4      23 artifacts/task_3_input_1.txt
+      3      11      48 artifacts/task_3_input_2.txt
+      5      15      71 total
+
+hw1 % wc  artifacts/task_3_input_1.txt artifacts/task_3_input_2.txt
+       1       4      23 artifacts/task_3_input_1.txt
+       2      11      48 artifacts/task_3_input_2.txt
+       3      15      71 total
+
+
+hw1 % cat artifacts/task_3_input_1.txt | ./task_3.py
+      2       4      23
