@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "hw-3-firepancake"
+version = "0.1.0"
+authors = ["Anton Poiskov <poiskov2016@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.13"
+numpy = "^2.2.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
